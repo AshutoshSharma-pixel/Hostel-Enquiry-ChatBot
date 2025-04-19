@@ -1,0 +1,61 @@
+{
+    "intents": [
+      {
+        "tag": "fees",
+        "patterns": [
+          "What is the hostel fee?",
+          "How much does it cost?",
+          "Tell me the fee structure",
+          "What's the price per month?"
+        ],
+        "responses": [
+          "The hostel fee is ₹6000 per month.",
+          "It costs ₹6000/month including utilities.",
+          "You need to pay ₹6000 monthly for hostel accommodation."
+        ]
+      },
+      {
+        "tag": "availability",
+        "patterns": [
+          "Are rooms available?",
+          "Is there any vacancy?",
+          "Can I book a room?",
+          "Do you have single rooms?"
+        ],
+        "responses": [
+          "Yes, we have rooms available. Please contact the warden for booking.",
+          "Single and shared rooms are available. Get in touch with the admin.",
+          "There are a few vacancies left. Hurry and book your room!"
+        ]
+      },
+      {
+        "tag": "food",
+        "patterns": [
+          "Is food provided?",
+          "Do you have a mess?",
+          "Are meals included?",
+          "What about lunch and dinner?"
+        ],
+        "responses": [
+          "Yes, we have a mess that serves breakfast, lunch, and dinner.",
+          "Meals are included in the hostel package.",
+          "The mess provides three meals a day – all included."
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "How can I contact the warden?",
+          "Give me the phone number",
+          "Who do I call?",
+          "What's the contact info?"
+        ],
+        "responses": [
+          "You can contact the warden at +91-9876543210.",
+          "Please call the hostel warden at +91-9876543210 for more details.",
+          "For any queries, reach out to the warden on +91-9876543210."
+        ]
+      }
+    ]
+  }
+  
